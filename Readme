@@ -1,0 +1,11 @@
+NOTICE | The defaultKeys Are To Be Changed! Keep Four Characters Per Key.
+
+About | Runecrypt is a file encryption/decryption tool created using C++. I created this project as a challenge to improve my knowledge around simple encryption algorithms 
+and file handling and manipulation. Additionally, I used my schools(Chemeketa Community College) basic C++ program template for my project, which conveniently handled backend aspects
+such as version control, editor configuration, and build automation. This allowed me to focus on writing the core logic of my program.
+
+ETC | During the creation of this program, I found that I ran into exception errors if the user tried to run the encryption more than once on the file. 
+This led me to discover that I had to implement an additional key for the program not to have an exception error if the user ran the program on encryption more than once. 
+Additionally, I ran into a problem where my program encryption function would keep the original format. Additionally, the decryption function would not decipher the original content,
+which resulted in me figuring out that my cipher keys were not able to cover a new line, so I decided to add something that detected a new line and assigned it to a unique key outside the cipher
+to allow the decryption to decrypt the original message including newlines fully and also solved the issue of the encryption not hiding the original content as much as it could.
