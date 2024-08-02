@@ -1,4 +1,6 @@
-NOTICE | The defaultKeys Are To Be Changed! Keep Four Characters Per Key.
+!NOTICE! | 
+1. The defaultKeys Are To Be Changed! Keep Four Characters Per Key.
+2. Either add your own file to the program folder or use the t.txt file within the folder
 
 About | Runecrypt is a file encryption/decryption tool created using C++. I created this project as a challenge to improve my knowledge around simple encryption algorithms 
 and file handling and manipulation. Additionally, I used my schools(Chemeketa Community College) basic C++ program template for my project, which conveniently handled backend aspects
